@@ -1,0 +1,33 @@
+Array Query problems
+
+1.Kaden's Algorithm:- 
+    used to perform subarray operations i.e subarray sum,min/max number 
+    efficency=O(n)
+
+2.Segement Tree:- 
+    Given 'n' nodes 
+    tree creation = O(n)
+    height of Tree = log(n)
+    Query and update the tree = log(n)
+
+3.Lookup Table:-
+    The table size depends on the nature of the problem but query time is O(1) i.e constant time.
+
+4.Sparse Tree:-
+    used for faster queries
+    space complexity = nlog(n)
+    Quer acess time = O(n)
+    time to build table = nlog(n)
+
+5.Square root decomposition and MO's Algorithm:-
+    Space efficency = Squareroot(n)
+    processing time = Squareroot(n)
+    *can't handle dynamic queries
+
+6.Fenwick Tree:-
+    Space complexity = n
+    Query time = log(n)
+
+Note :- Merge sort tree,
+
+ 
