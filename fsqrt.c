@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+int main()
+{
+    int t,a,b;
+    scanf("%d",&t);
+    while(t--)
+    {
+        scanf("%d",&a);
+        b=sqrt(a);
+        printf("%d\n",b);
+
+
+    }return 0;
+}
